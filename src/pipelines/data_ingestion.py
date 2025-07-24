@@ -22,7 +22,7 @@ class IngestionPipeline:
         log_file (str): Path to the log file.
     """
 
-    def __init__(self, data_dir: str, engine: Engine, log_file: str = "logs/ingestion_db.log") -> None:
+    def __init__(self, data_dir: str, engine: Engine, log_file: str = "src/logs/ingestion_db.log") -> None:
         """
         Initializes the IngestionPipeline with the data directory and database engine.
 
@@ -87,10 +87,6 @@ class IngestionPipeline:
 
         elapsed = (time.time() - start_time) / 60
         logging.info(f"⏱️ Ingestion completed in {elapsed:.2f} minutes.")
-
-
-from sqlalchemy import create_engine
-from ingestion_pipeline import IngestionPipeline
 
 if __name__ == "__main__":
     engine = get_sql_database()
