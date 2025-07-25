@@ -8,3 +8,4 @@ numpy
 SQLAlchemy 
 pymysql
 python-dotenv
+psycopg2-binary
