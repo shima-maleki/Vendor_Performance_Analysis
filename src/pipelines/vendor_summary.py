@@ -1,7 +1,11 @@
+import os
 import pandas as pd
 import logging
 from sqlalchemy.engine import Engine
 from infrastructure.postgres_connection import get_sql_database  
+
+
+os.makedirs(os.path.dirname("logs/get_vendor_summary.log"), exist_ok=True)
 
 logging.basicConfig(
     filename="logs/get_vendor_summary.log",
