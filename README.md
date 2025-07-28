@@ -91,7 +91,7 @@ pip install -r requirements.txt
 # 📊 Sample Dashboard
 
 # 🧰 Tools & Technologies
-**Languages:** Python (Pandas, NumPy), SQL
+**Languages:** Python (Pandas, NumPy, Scipy), SQL
 
 **BI Tools:** Power BI
 
@@ -105,6 +105,7 @@ pip install -r requirements.txt
 I’m a data enthusiast with hands-on experience in building data pipelines, performing EDA, and delivering business insights through dashboards. This project is part of my effort to demonstrate real-world problem solving using data.
 
 📧 [shimamaleki95@yahoo.com]
+
 🔗 [LinkedIn](https://www.linkedin.com/in/malekishima/)
 
 # 📜 License
