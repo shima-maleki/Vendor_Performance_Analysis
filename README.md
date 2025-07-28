@@ -1,6 +1,13 @@
 # 📊 Vendor Performance Analysis
 This project is an end-to-end data analysis and visualization pipeline focused on assessing and improving vendor performance. It showcases data cleaning, exploratory data analysis, and dashboarding using real-world data patterns. Built to highlight proficiency in Python, SQL, data wrangling, and BI tools.
 
+# 🏗️ Architecture
+
+This project follows a modular and scalable architecture designed to support an end-to-end data analysis workflow.
+
+![Architecture](visuals/powerbid.jpg)
+
+
 # 🧠 Objective
 The primary goal of this project is to:
 
