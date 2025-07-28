@@ -10,11 +10,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # get connection details 
-USER_NAME = os.getenv("pg_username")
-PASSWORD = os.getenv("pg_password")
-HOST = os.getenv("pg_hostname")
-PORT = os.getenv("pg_port")  # default for Postgres is 5432
-DATABASE_NAME = os.getenv("pg_database")
+USER_NAME = os.getenv("username")
+PASSWORD = os.getenv("password")
+HOST = os.getenv("hostname")
+PORT = os.getenv("port")  # default for Postgres is 5432
+DATABASE_NAME = os.getenv("database")
 
 
 class PostgresConnector:

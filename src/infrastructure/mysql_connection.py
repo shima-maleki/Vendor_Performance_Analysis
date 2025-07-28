@@ -9,12 +9,12 @@ from dotenv import load_dotenv
 # load enviornment variables
 load_dotenv()
 
-# get connection details 
-USER_NAME = os.getenv("user_name")
+# get connection details  
+USER_NAME = os.getenv("username")
 PASSWORD = os.getenv("password")
-HOST = os.getenv("host")
-PORT = os.getenv("port")
-DATABASE_NAME = os.getenv("database_name")
+HOST = os.getenv("hostname")
+PORT = os.getenv("port")  # default for Postgres is 5432
+DATABASE_NAME = os.getenv("database")
 
 
 class MySQLConnector:
