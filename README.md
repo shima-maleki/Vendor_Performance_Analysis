@@ -97,6 +97,13 @@ pip install -r requirements.txt
 
 # 📊 Sample Dashboard
 
+| [![Top 10 Vendors](visuals/top10venders.png)](visuals/top10venders.png) | [![Vendor Contribution](visuals/vendorcontribution.png)](visuals/vendorcontribution.png) |
+|:------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------:|
+| **Top 10 Vendors by Performance**                                        | **Vendor Contribution to Overall Sales**                                                 |
+| [![Confidence Interval](visuals/confidence_interval.png)](visuals/confidence_interval.png) | [![Promotion Brands](visuals/promotionbrands.png)](visuals/promotionbrands.png) |
+| **Confidence Interval for Vendor Metrics**                               | **Brand Promotions Distribution**                                                        |
+
+
 # 🧰 Tools & Technologies
 **Languages:** Python (Pandas, NumPy, Scipy), SQL
 
