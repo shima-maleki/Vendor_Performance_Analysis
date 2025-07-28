@@ -4,18 +4,41 @@
 
 This report presents a comprehensive analysis of vendor and sales performance based on the provided dataset. The primary goal was to identify key trends, uncover actionable insights, and provide data-driven recommendations to optimize procurement, sales strategies, and overall profitability. The analysis revealed a strong dependency on a few key vendors, significant cost savings from bulk purchasing, and a notable difference in profit margins between high and low-performing vendors.
 
+The goal of this analysis is to:
+
+● Identify underperforming brands that require promotional or pricing
+adjustments.
+
+● Determine top vendors contributing to sales and gross profit.
+
+● Analyze the impact of bulk purchasing on unit costs.
+
+● Assess inventory turnover to reduce holding costs and improve
+efficiency.
+
+● Investigate the profitability variance between high-performing and
+low-performing vendors.
+
 ## 2. Key Findings
+
+![Top 10 Vendors](../visuals/top10venders.png)
+
+![vendortop](../visuals/vendortop.png)
 
 ### 2.1. Vendor Dependency and Concentration
 - **High Concentration:** The top 10 vendors account for approximately 66% of the total purchase dollars, with DIAGEO NORTH AMERICA INC being the largest single contributor (16.3%).
 - **Supply Chain Risk:** This high level of dependency on a small number of vendors poses a significant risk to the supply chain. Any disruption from these key suppliers could have a major impact on business operations.
 - **Underutilized Vendors:** A large number of vendors contribute a very small percentage of the total procurement, suggesting they are underutilized or less competitive.
 
+![coorelation](../visuals/coorelation.png)
+
 ### 2.2. Sales and Profitability Insights
 - **Top Performers:** DIAGEO NORTH AMERICA INC, MARTIGNETTI COMPANIES, and PERNOD RICARD USA are the top 3 vendors by sales performance, contributing significantly to the total revenue.
 - **Brand Performance:** "Jack Daniels No 7 Black," "Tito's Handmade Vodka," and "Grey Goose Vodka" are the top-selling brands.
 - **Profit Margin Discrepancy:** There is a statistically significant difference in profit margins between top-performing and low-performing vendors. Low-performing vendors, despite lower sales, tend to have higher profit margins (40.5% - 42.6% CI) compared to top-performing vendors (30.7% - 31.6% CI). This suggests different pricing strategies or cost structures.
 - **Promotional Opportunities:** Several brands were identified with low sales but high profit margins. These brands are prime candidates for targeted promotional activities or pricing adjustments to boost sales volume without significantly compromising profitability.
+
+![confidence_interval](../visuals/confidence_interval.png)
 
 ### 2.3. Inventory and Procurement Analysis
 - **Bulk Purchasing Benefits:** A clear and significant cost advantage was observed with bulk purchasing. The average unit purchase price for large orders is approximately 72% lower than for small orders. This highlights the effectiveness of the current bulk pricing strategy.
