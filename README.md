@@ -56,7 +56,6 @@ VENDOR_PERFORMANCE_ANALYSIS/
 └── .gitignore
 ```
 
-
 # 🔍 Key Features
 **Data Cleaning:** Handling missing values, outliers, and formatting.
 
@@ -95,7 +94,11 @@ pip install -r requirements.txt
 
 - Or execute scripts inside src/pipelines/ for modular pipeline runs.
 
-# 📊 Sample Dashboard
+# 📊 POWER BI Dashboard
+
+![POWERBIREPORT](visuals/powerBIREPORT.png)
+
+# 📊 Analysis Visuals
 
 | [![Top 10 Vendors](visuals/top10venders.png)](visuals/top10venders.png) | [![Vendor Contribution](visuals/vendorcontribution.png)](visuals/vendorcontribution.png) |
 |:------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------:|
